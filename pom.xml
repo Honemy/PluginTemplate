@@ -110,6 +110,9 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+					<compilerArgs>
+                        <arg>-Xlint:-options</arg>
+                    </compilerArgs>
                 </configuration>
             </plugin>
             <plugin>
@@ -149,6 +152,9 @@
                         <relocation>
                             <pattern>com.honemy.ht</pattern>
                             <shadedPattern>${project.groupId}.${project.artifactId}.lib</shadedPattern>
+							<excludes>
+                                <exclude>com/honemy/${project.artifactId}/**</exclude>
+                            </excludes>
                         </relocation>
                     </relocations>
                 </configuration>
