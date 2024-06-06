@@ -40,7 +40,7 @@
 
         <!-- Leave on "com.github.Honemy" if you use HTools from GitHub like most people,
              or change to "com.honemy" if you downloaded our library to your disk and compiled it. -->
-        <htools.path>com.honemy</htools.path>
+        <htools.path>com.github.Honemy</htools.path>
 
         <!-- DO NOT EDIT. -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
